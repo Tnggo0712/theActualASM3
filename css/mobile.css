@@ -1,0 +1,82 @@
+@media only screen and (max-width: 767px) {
+  /*nav-bar*/
+
+  .nav-bar a {
+    align-content: start;
+  }
+
+  /*thong tin ca nhan*/
+
+  .left-content {
+    background-color: #f7f7f7;
+    padding: 150px 10px 150px 10px;
+    width: 100%;
+  }
+  .right-content {
+    background-color: #eeeeee;
+    padding: 150px 10px 150px 10px;
+    width: 100%;
+  }
+  .grid-container {
+    display: block;
+    grid-template-columns: 1fr;
+  }
+  .info-job {
+    font-weight: bold;
+  }
+
+  /*thong tin nghe nghiep*/
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    gap: 35px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .grid-container1 > div {
+    border: 1px solid silver;
+    color: #5b5a5a;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  /*chung chi*/
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+  .grid-container3 > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 10px 20px 30px;
+  }
+
+  /*du an*/
+
+  .grid-container-du-an {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    gap: 35px;
+    width: 100%;
+    margin: 0 auto;
+    color: #5b5a5a;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tr {
+    border: 1px solid silver;
+  }
+  td {
+    height: 70px;
+    padding: 5px;
+  }
+}
